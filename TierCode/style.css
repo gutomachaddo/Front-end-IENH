@@ -1,0 +1,1129 @@
+/*Se refere ao documento index.html*/
+body {
+  margin: 0px;
+  background-color: #242222;
+  font-family: Arial;
+}
+
+header {
+  background-color: #000;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  max-width: 1120px;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+#search {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#searchBar {
+  margin-left: 20px;
+  outline: none;
+}
+
+#profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#profile {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/banner.png");
+  width: 100%;
+  height: 670px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-area {
+  height: 670px;
+  display: flex;
+  max-width: 1120px;
+  margin: auto;
+  color: #fff;
+  flex-direction: column;
+}
+
+.text-area p {
+  font-size: 22px;
+}
+
+.text-area h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+span {
+  color: #ffd700;
+}
+
+.tiers {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  align-items: end;
+}
+
+#tierS,
+#tierA,
+#tierB,
+#tierC,
+#tierD,
+#tierE,
+#tierF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000;
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: Arial;
+}
+
+#tierS {
+  background-color: #ff6666;
+}
+
+#tierA {
+  background-color: #ffbf7f;
+}
+
+#tierB {
+  background-color: #ffff7f;
+}
+
+#tierC {
+  background-color: #ffff99;
+}
+
+#tierD {
+  background-color: #99ff99;
+}
+
+#tierE {
+  background-color: #66cc99;
+}
+
+#tierF {
+  background-color: #7fddff;
+}
+
+.tiers span {
+  color: white;
+}
+
+#tierS:hover,
+#tierA:hover,
+#tierB:hover,
+#tierC:hover,
+#tierD:hover,
+#tierE:hover,
+#tierF:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.hero h2 {
+  color: #fff;
+}
+
+.hero a {
+  text-decoration: none;
+  color: rgb(127, 191, 255);
+}
+
+.hero img {
+  width: 140px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.mobileApps {
+  display: flex;
+  flex-direction: column;
+}
+
+.images-MA {
+  display: flex;
+  justify-content: space-around;
+}
+
+.templateTiers {
+  margin: auto;
+  max-width: 1120px;
+  color: #fff;
+}
+
+.templateTiers a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(127, 191, 255);
+}
+
+.template {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+}
+
+.template img {
+  height: auto;
+  max-width: 100%;
+}
+
+#template1,
+#template2,
+#template3,
+#template4 {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 220px;
+  height: 150px;
+  transition: transform 0.3 ease;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+}
+
+#template1:hover,
+#template2:hover,
+#template3:hover,
+#template4:hover {
+  opacity: 0.4;
+}
+
+.nameTemplate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  width: 100%;
+}
+
+.nameTemplate span {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#template1 {
+  background-image: url("images/best-code-editor.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#template2 {
+  background-image: url("images/languages.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#template3 {
+  background-image: url("images/frameworks.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#template4 {
+  background-image: url("images/linux.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: auto;
+  background-color: #000;
+  margin-top: 200px;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(127, 191, 255);
+}
+
+.footer-area {
+  width: 1120px;
+}
+
+.footer-topics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-topics h4 {
+  font-size: 20px;
+}
+
+.footer-topics ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer-topics li {
+  line-height: 30px;
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/*Se refere ao documento CodeEditors.html*/
+.main {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.title {
+  max-width: 1120px;
+  margin: auto;
+  color: #fff;
+  margin-top: 200px;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.title p {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.main-container {
+  width: 1000px;
+  margin-left: 0;
+  margin-top: 40px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.tier-row {
+  min-height: 79px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.tier-row .choose {
+  margin-left: 10px;
+}
+
+.tier-S,
+.tier-A,
+.tier-B,
+.tier-C,
+.tier-D,
+.tier-E,
+.tier-F {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 81px;
+  flex-shrink: 0;
+  border-right: 1px solid #fff;
+}
+
+.tier-S {
+  background-color: #ff6666;
+}
+
+.tier-A {
+  background-color: #ffbf7f;
+}
+
+.tier-B {
+  background-color: #ffff7f;
+}
+
+.tier-C {
+  background-color: #ffff99;
+}
+
+.tier-D {
+  background-color: #99ff99;
+}
+
+.tier-E {
+  background-color: #66cc99;
+}
+
+.tier-F {
+  background-color: #7fddff;
+}
+
+.letter {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pin-images {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.images-for-tierlist {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: 100px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.choose {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.vim {
+  background-image: url("images/best-code-editor.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.neovim {
+  background-image: url("https://raw.githubusercontent.com/practicalli/graphic-design/be612ddb29f6b9eef1641e91de6c747b70d7fef8/logos/neovim-logos/neovim-mark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.vscode {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.visualStudio {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sublime {
+  background-image: url("https://logowik.com/content/uploads/images/sublime-text-icon1721341619.logowik.com.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.codeBlocks {
+  background-image: url("https://w7.pngwing.com/pngs/726/388/png-transparent-code-blocks-computer-icons-computer-programming-block-icon-angle-rectangle-computer-program.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jetBrains {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/08/JetBrains_beam_logo.svg/2048px-JetBrains_beam_logo.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.eclipse {
+  background-image: url("https://www.pngfind.com/pngs/m/12-122645_eclipse1024-eclipse-ide-icon-png-transparent-png.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.atom {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTA28519rWciQzYrFTtUP0lNaDh6Lld8RHfQ&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.notepad {
+  background-image: url("https://logowik.com/content/uploads/images/notepad2621.logowik.com.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+#reset-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #66cc99;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reset-button:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+#button-back-to-home {
+  background-color: #00bcd4;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#button-back-to-home a {
+  text-decoration: none;
+  color: #483d8b;
+}
+
+#button-back-to-home:hover {
+  background-color: #00a3b5;
+}
+
+/*Se refere ao documento ProgrammingLanguages.html*/
+.php {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/2560px-Webysther_20160423_-_Elephpant.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.c {
+  background-image: url("https://hotmart.s3.amazonaws.com/product_pictures/37fbd159-6126-4d4c-818a-851523dcaa3b/Curso_C.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cmaismais {
+  background-image: url("https://cdn-wcsm.alura.com.br/2025/04/img-01-20.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.python {
+  background-image: url("https://images.vexels.com/media/users/3/166477/isolated/preview/9bb722f0e85ddbc1ce0f064534fd2311-icone-da-linguagem-de-programacao-python.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.java {
+  background-image: url("https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.javascript {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ruby {
+  background-image: url("https://rubyonrails.org/assets/images/opengraph.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.rust {
+  background-image: url("https://e7.pngegg.com/pngimages/114/914/png-clipart-rust-programming-language-logo-machine-learning-haskell-crab-animals-cartoon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.elixir {
+  background-image: url("https://miro.medium.com/0*ahZBVx3Z1eJRXDv1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.csharp {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.go {
+  background-image: url("https://lh6.googleusercontent.com/mtL0h_6smR8btuB6EBj6kDMek8SnsuqnjRy542yVXN8aWhoJpb3ONv3Ff6UFzoLvP4drq_y81ZwNrdOyzkP29NdDgQyMv1962bi6gYnEeGe6onl53innUV36jS0rXfLw6APw6A_W=s0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.assembly {
+  background-image: url("https://i.pinimg.com/736x/25/a8/5d/25a85d9e5057430d82273a3c75e73014.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.swift {
+  background-image: url("https://miro.medium.com/1*bdi1khId660AwBENjx9YNg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.kotlin {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cobol {
+  background-image: url("https://hermes.dio.me/articles/cover/8babc6bd-1d28-459c-b5a8-6c510cd101be.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pascal {
+  background-image: url("https://img.icons8.com/fluent/1200/pascal.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.perl {
+  background-image: url("https://e7.pngegg.com/pngimages/237/582/png-clipart-perl-6-programming-language-programmer-ruby-mammal-fauna.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lua {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sql {
+  background-image: url("https://hermes.dio.me/articles/cover/59ddb9b0-2740-4178-a124-ac8fcdaf8ea7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*Se refere ao documento Frameworks.html*/
+.asp {
+  background-image: url("https://e7.pngegg.com/pngimages/534/663/png-clipart-net-framework-software-framework-c-microsoft-asp-net-microsoft-blue-angle-thumbnail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spring {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1200px-Spring_Boot.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.laravel {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfitrjP8RaSyij0rDzOFvzl92--bwK-uGsw&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.react {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.angular {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWuFKRMqxvXGbWPKdUkncvjoVghB-0WKOBvQ&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.django {
+  background-image: url("https://www.svgrepo.com/show/373554/django.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.vue {
+  background-image: url("https://vuejs.org/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.next {
+  background-image: url("https://miro.medium.com/1*DofdLH9enWUHwvs3Qmpg2w.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bootstrap {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.svelte {
+  background-image: url("https://cdn.thenewstack.io/media/2021/09/9969f494-sveltelogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.flask {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmD38KsMgEwahtWc_Nfs5ZVktP9dBc36MUZA&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.express {
+  background-image: url("https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo-thumbnail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nuxt {
+  background-image: url("https://logowik.com/content/uploads/images/nuxt-framework4253.logowik.com.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ember {
+  background-image: url("https://blog.emberjs.com/images/logos/e-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*Se refere ao documento Linux.html*/
+.mint {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Linux_Mint_logo_without_wordmark.svg/2048px-Linux_Mint_logo_without_wordmark.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.arch {
+  background-image: url("https://images.seeklogo.com/logo-png/48/1/arch-linux-logo-png_seeklogo-483426.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fedora {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Fedora-logo.svg/2048px-Fedora-logo.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.debian {
+  background-image: url("https://www.debian.org/Pics/debian-logo-1024x576.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.kali {
+  background-image: url("https://static0.xdaimages.com/wordpress/wp-content/uploads/2023/08/kali-linux-dragon-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ubuntu {
+  background-image: url("https://www.simplilearn.com/ice9/ubuntulogo1.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.biglinux {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSROAayPPaD_C-GZ5ytgRsqviMvwoKZVvw3OQ&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.regata {
+  background-image: url("https://fosstorrents.com/img/regata.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pop {
+  background-image: url("https://betanews.com/wp-content/uploads/2017/06/pop_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.steam {
+  background-image: url("https://e7.pngegg.com/pngimages/448/550/png-clipart-steam-computer-icons-logo-steam-logo-video-game-thumbnail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.opensuse {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ-uWShZ8-N9qAw6Hso8_NxX5KrkwmDRyTXA&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.zorin {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Zorin_OS.svg/1182px-Zorin_OS.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.chrome {
+  background-image: url("https://miro.medium.com/0*QjzUwelHWtndPaLc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.elementary {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJGif5l1ZDrp4qQEoh1Uh55vPK3PYUUWfa93GT0efHHITiHNZIoextfNwYMziLZ-77x5Y&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gentoo {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/48/Gentoo_Linux_logo_matte.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.redhat {
+  background-image: url("https://e7.pngegg.com/pngimages/471/115/png-clipart-red-hat-enterprise-linux-7-linux-distribution-linux-hat-fictional-character.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.vanilla {
+  background-image: url("https://avatars.githubusercontent.com/u/112941747?s=280&v=4");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 850px) {
+  .container,
+  .main,
+  .footer-area,
+  .templateTiers {
+    max-width: 95%;
+    padding: 0 15px;
+  }
+
+  #searchIcon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .text-area h1 {
+    font-size: 45px;
+  }
+  .text-area p {
+    font-size: 18px;
+  }
+
+  .template {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  #template1,
+  #template2,
+  #template3,
+  #template4 {
+    width: 200px;
+  }
+
+  .footer-topics {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .main-container {
+    width: 95%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .tier-S,
+  .tier-A,
+  .tier-B,
+  .tier-C,
+  .tier-D,
+  .tier-E,
+  .tier-F {
+    width: 80px;
+    height: 70px;
+  }
+
+  .images-for-tierlist {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 555px) {
+  header {
+    height: auto;
+  }
+
+  header .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .right {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+
+  #profile {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  #profile img {
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+  }
+
+  #searchBar {
+    width: 120px;
+  }
+
+  #searchIcon {
+    margin-right: 10px;
+  }
+
+  #search {
+    display: none;
+  }
+
+  .banner {
+    height: auto;
+  }
+  .text-area {
+    height: auto;
+    padding-top: 40px;
+    padding: 20px;
+  }
+  .text-area h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+  .text-area p {
+    font-size: 15px;
+  }
+
+  .tiers {
+    justify-content: flex-start;
+    height: auto;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+  #tierS,
+  #tierA,
+  #tierB,
+  #tierC,
+  #tierD,
+  #tierE,
+  #tierF {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  .templateTiers h3 {
+    padding: 0 20px;
+  }
+  .template {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 15px;
+    padding: 0 20px;
+  }
+  #template1,
+  #template2,
+  #template3,
+  #template4 {
+    width: 200px;
+    height: 180px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+  .footer-topics {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  .footer-topics div {
+    margin-bottom: 10px;
+  }
+  .rights {
+    padding-bottom: 10px;
+  }
+
+  .main {
+    padding: 0 10px;
+  }
+  .title {
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  .tier-S,
+  .tier-A,
+  .tier-B,
+  .tier-C,
+  .tier-D,
+  .tier-E,
+  .tier-F {
+    width: 40px;
+    height: 49px;
+  }
+
+  .choose {
+    width: 55px;
+    height: 55px;
+  }
+
+  .images-for-tierlist {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-auto-rows: 70px;
+    padding: 5px;
+  }
+
+  .pin-images {
+    margin-top: 40px;
+  }
+}
+
+.template1,
+.template2,
+.template3,
+.template4 {
+  width: 100px;
+}

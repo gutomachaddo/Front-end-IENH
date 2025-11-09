@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frameworks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="left">
+          <a href="index.html"
+            ><img src="images/logo.png" alt="logo_tierCode" id="logo"
+          /></a>
+        </div>
+        <div class="right">
+          <a href="#"
+            ><img src="images/searchIcon.png" alt="" id="searchIcon"
+          /></a>
+          <input type="search" id="searchBar" />
+          <a href="" id="search">Login</a>
+          <a href="#"
+            ><div id="profile">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/01/04/16/38/einstein-3913496_640.jpg"
+                alt="einsten"
+              /></div
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="title">
+        <button id="button-back-to-home">
+          <a href="index.html">Back to Home</a>
+        </button>
+        <h1>Frameworks List Maker</h1>
+        <p>
+          Rank the most popular framework of all-time in a tier list. What
+          framework is top tier? What framework is horrible?
+        </p>
+        <p>Beware of controversial opinions.🤔</p>
+      </section>
+
+      <section class="main-container">
+        <div class="tier-row">
+          <div class="tier-S"><span class="letter">S</span></div>
+        </div>
+
+        <div class="tier-row">
+          <div class="tier-A"><span class="letter">A</span></div>
+        </div>
+
+        <div class="tier-row">
+          <div class="tier-B"><span class="letter">B</span></div>
+        </div>
+
+        <div class="tier-row">
+          <div class="tier-C"><span class="letter">C</span></div>
+        </div>
+
+        <div class="tier-row">
+          <div class="tier-D"><span class="letter">D</span></div>
+        </div>
+
+        <div class="tier-row">
+          <div class="tier-E"><span class="letter">E</span></div>
+        </div>
+
+        <div class="tier-row">
+          <div class="tier-F"><span class="letter">F</span></div>
+        </div>
+      </section>
+
+      <button id="reset-button">Clean TierList</button>
+
+      <section class="item-tierlist">
+        <div class="pin-images">
+          <p>Pin Images 📌</p>
+        </div>
+        <div class="images-for-tierlist" id="source-container">
+          <div class="choose asp" draggable="true" title="ASP.NET"></div>
+          <div class="choose spring" draggable="true" title="Spring Boot"></div>
+          <div class="choose laravel" draggable="true" title="Laravel"></div>
+          <div class="choose react" draggable="true" title="React"></div>
+          <div class="choose angular" draggable="true" title="Angular"></div>
+          <div class="choose django" draggable="true" title="Django"></div>
+          <div class="choose vue" draggable="true" title="Vue.js"></div>
+          <div class="choose next" draggable="true" title="Next.js"></div>
+          <div
+            class="choose bootstrap"
+            draggable="true"
+            title="Bootstrap"
+          ></div>
+          <div class="choose svelte" draggable="true" title="Svelte"></div>
+          <div class="choose flask" draggable="true" title="Flask"></div>
+          <div class="choose express" draggable="true" title="Express.js"></div>
+          <div class="choose nuxt" draggable="true" title="Nuxt.js"></div>
+          <div class="choose ember" draggable="true" title="Ember.js"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-area">
+        <div class="footer-topics">
+          <div class="explore">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#">New Tier Lists</a></li>
+              <li><a href="#">New Alignment Charts</a></li>
+              <li><a href="#">Community Rankings</a></li>
+              <li><a href="#">TierMaker Mobile App</a></li>
+              <li><a href="#">Go Ad-Free</a></li>
+            </ul>
+          </div>
+          <div class="create">
+            <h4>Create</h4>
+            <ul>
+              <li><a href="#">Create a Live Voting Tier List</a></li>
+              <li><a href="#">Create an Alignment Chart</a></li>
+              <li><a href="#">Create a Tournament Bracket</a></li>
+              <li><a href="#">Create a Trivia Quiz</a></li>
+              <li><a href="#">Bulk Overlay Text on Images</a></li>
+            </ul>
+          </div>
+          <div class="support">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Creation Guide and FAQs</a></li>
+              <li><a href="#">Guidelines</a></li>
+              <li><a href="#">App & Ad-Free Support</a></li>
+              <li><a href="#">S Tier Meaning</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rights">
+          <p>
+            © 2025 tiercode.com | <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Use</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
