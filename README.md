@@ -1,2 +1,1 @@
-# Front-end-IENH
-Projects completed for front-end development classes at IENH college.
+# This repository contains all the projects created during the front-end development course at IENH college.
